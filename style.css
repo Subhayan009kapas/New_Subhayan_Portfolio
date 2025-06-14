@@ -150,7 +150,7 @@ body {
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  */
   box-shadow: 0 0 10px 0 rgba(121, 0, 255, 0.5), 
   0 0 20px 0 rgba(255, 88, 202, 0.5);;
-  z-index: 1000; 
+  z-index: 5000; 
 }
 
 .openbtn {
@@ -543,15 +543,12 @@ body {
     transform: scale(1);
   }
 }
-.pro-img1:hover{
-  transform: scale(1.1);
- 
-}
+
 .pro-img2{
   height: 160px;
   width: 300px;
   background-color: #fff;
-  background-image: url("./helpinghand.png");
+  background-image: url("./DWWP.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 8px;
@@ -602,7 +599,7 @@ body {
   height: 160px;
   width: 300px;
   background-color: #fff;
-  background-image: url("./currency.png");
+  background-image: url("./CloudGallary.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 8px;
@@ -657,24 +654,24 @@ body {
 
 }
 .title{
-  font-size: 25px;
+  font-size: 20px;
 }
 .sub-title{
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
 
 }
 .view-on-git-btn {
-  height: 38px;
-  width: 160px;
+  height: 30px;
+  width: 140px;
   display: flex;
   align-items: center;
   gap: 25px;
-  font-size: 20px;
+  font-size: 16px;
   outline: none;
   border: none;
   border-radius: 10px;
-  padding: 30px;
+  padding: 25px;
   background:linear-gradient(to right, rgb(121, 0, 255), rgb(255, 88, 202)) ;
   cursor: pointer;
   position: relative;
@@ -683,6 +680,7 @@ body {
   10px 10px 30px rgba(255, 88, 202, 0.4),
   20px 20px 40px rgba(255, 88, 202, 0.3);
   transition: transform 1s ease;
+  text-decoration: none;
  
   
 }
@@ -692,20 +690,23 @@ body {
   0 0 20px rgba(121, 0, 255, 0.3), 
   10px 10px 30px rgba(255, 88, 202, 0.4),
   20px 20px 40px rgba(255, 88, 202, 0.3);
-  transform: scale(1.1);
+ 
 
 }
 .view-on-git-btn p{
   color: #fff;
 }
 .view-on-git-btn img{
-  height: 40px;
+  height: 30px;
 }
 .pro-btn{
   display: flex;
   align-items: center;
   gap: 80px;
   
+}
+.pro-btn a{
+  text-decoration: none;
 }
 .code img{
   height: 22px;
@@ -719,7 +720,7 @@ body {
 /* achivement */
 .achivement{
   position: relative;
-  top: 200px;
+
 }
 
 .achivement .main .heading{
@@ -733,8 +734,8 @@ body {
   top: 20px;
 }
 .achivement-container-con{
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   align-items: center;
   position: relative;
   top: 50px;
@@ -743,13 +744,14 @@ body {
 }
 .achivement-container{
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 100px;
  
 }
 .achivement-container .achive{
-  height: 520px;
-  width: 400px;
+   height: 420px;
+  width: 300px;
   background-color: #fff;
   padding: 35px;
   box-shadow: 0 0 10px rgba(121, 0, 255, 0.5), 
@@ -760,24 +762,24 @@ body {
 
 }
 .achive .img1{
-  height: 260px;
-  width: 400px;
+   height: 160px;
+  width: 300px;
   background-color: #fff;
   position: relative;
-  background-image: url("./gdsc_certificate.png");
+  background-image: url("./Infosys_java.png");
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
   transition: transform  1s ease;
-  animation: imageAnimation 3s ease 1s  infinite;
+ 
   
 }
 .achive .img1:hover{
   transform: scale(1.1);
 }
 .achive .img2{
-  height: 260px;
-  width: 400px;
+   height: 160px;
+  width: 300px;
   background-color: #fff;
   position: relative;
   background-image: url("./data_science_certificate.png");
@@ -785,7 +787,7 @@ body {
   background-repeat: no-repeat;
   cursor: pointer;
   transition: transform  1s ease;
-  animation: imageAnimation 3s ease 1s  infinite;
+ 
 
  
 }
@@ -793,8 +795,8 @@ body {
   transform: scale(1.1);
 }
 .achive .img3{
-  height: 260px;
-  width: 400px;
+  height: 160px;
+  width: 300px;
   background-color: #fff;
   position: relative;
   background-image: url("./duhack_certificate.png");
@@ -802,20 +804,92 @@ body {
   background-repeat: no-repeat;
   cursor: pointer;
   transition: transform  1s ease;
-  animation: imageAnimation 3s ease 1s  infinite;
- 
- 
+
+}
+.achive .img4{
+  height: 160px;
+  width: 300px;
+  background-color: #fff;
+  position: relative;
+  background-image: url("./aicte_internship.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: transform  1s ease;
+
+}
+.achive .img5{
+  height: 160px;
+  width: 300px;
+  background-color: #fff;
+  position: relative;
+  background-image: url("./gdsc_certificate.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: transform  1s ease;
+
+}
+.achive .img6{
+  height: 160px;
+  width: 300px;
+  background-color: #fff;
+  position: relative;
+  background-image: url("./aws.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: transform  1s ease;
+
 }
 .achive .img3:hover{
   transform: scale(1.1);
 }
 .achive .para p{
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 16px;
+  line-height: 30px;
 }
 .achive .title{
   font-weight: bold;
+  
 }
+
+
+.achive div[class^="img"] {
+  height: 160px;
+  width: 300px;
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  position: relative;
+  z-index: 2;
+}
+
+/* Zoomed image: now centered and bigger */
+.achive div[class^="img"].zoomed {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(2.5); /* larger scale */
+  z-index: 100;
+  transition: transform 0.5s ease;
+}
+
+/* Blur overlay */
+#imgBlurOverlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 99;
+}
+
 
 /* contact */
 .contact{
@@ -1026,7 +1100,7 @@ gap: 20px;
  .sidepanel  {
   width: 0;
   position: fixed;
-  z-index: 2000;
+  z-index: 6000;
   height: 100vh;
   top: 0;
   left: 0;
@@ -1141,12 +1215,13 @@ gap: 20px;
     top: 0;
     width: 100%;
      
-    z-index: 1000; 
+    z-index: 5000; 
   }
   
-  .openbtn {
-    font-size: 18px; 
+  .header .openbtn {
+    font-size: 16px; 
     cursor: pointer;
+    margin-right: 2vw;
   }
   
   .logo img {
@@ -1559,7 +1634,7 @@ gap: 20px;
   height: 100px;
   width: 200px;
   background-color: #fff;
-  background-image: url("./helpinghand.png");
+  background-image: url("./DWWP.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 8px;
@@ -1610,7 +1685,7 @@ gap: 20px;
   height: 100px;
   width: 200px;
   background-color: #fff;
-  background-image: url("./currency.png");
+  background-image: url("./CloudGallary.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 8px;
@@ -1621,7 +1696,7 @@ gap: 20px;
 
 .project .pro-col-1 .pro{
 
-  height: 320px;
+  height: 340px;
   width: 200px;
   background-color:#fff;
   margin: 30px;
@@ -1637,7 +1712,7 @@ gap: 20px;
 
 }
 .project .pro-col-2 .pro{
-  height: 320px;
+  height: 350px;
   width: 200px;
   margin: 30px;
   background-color:#fff;
@@ -1682,11 +1757,11 @@ gap: 20px;
 }
 .view-on-git-btn {
   height: 0px;
-  width: 140px;
+  width: 120px;
   display: flex;
   align-items: center;
   gap: 20px;
-  font-size: 15px;
+  font-size: 12px;
   outline: none;
   border: none;
   border-radius: 10px;
@@ -1763,7 +1838,7 @@ gap: 20px;
 
 .achivement-container {
   display: flex; 
-  gap: 150px;
+  gap: 50px;
   position: relative;
   bottom: 100px;
   left: 0px;
@@ -1773,7 +1848,7 @@ gap: 20px;
 }
 
 .achivement-container .achive {
-  height: 400px; 
+  height: 320px; 
   width: 300px;
   max-width: 100%; 
   background-color: #fff;
@@ -1788,7 +1863,8 @@ gap: 20px;
 .achive .img1, .achive .img2, .achive .img3 {
   height: 200px; 
   width: 100%; 
-  animation: imageAnimation 3s ease 1s  infinite;
+ 
+  
 }
 
 .achive .img1:hover, .achive .img2:hover, .achive .img3:hover {
@@ -1796,8 +1872,8 @@ gap: 20px;
 }
 
 .achive .para p {
-  font-size: 16px;
-  line-height: 24px; 
+  font-size: 14px;
+  line-height: 20px; 
 }
 
 .achive .title {
@@ -1996,7 +2072,7 @@ form{
 }
 
 /* for menu bar  */
-.openbtn {
+.header .openbtn {
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
@@ -2006,8 +2082,10 @@ form{
   border: none;
   display: block;
   position: relative;
-  top: 8px;
+  top: 2px;
   left: 0px;
+  
+ 
   border-radius: 8px;
  
 }
